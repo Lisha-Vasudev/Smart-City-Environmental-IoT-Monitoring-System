@@ -1,5 +1,4 @@
 # Smart-City-Environmental-IoT-Monitoring-System
-# Smart City Environmental IoT Monitoring System
 
 A real-time **IoT streaming analytics** system for smart-city environmental monitoring. The pipeline simulates multi-sensor readings (temperature, humidity, noise, air quality), streams them into a **cloud PostgreSQL** database, and serves live analytics through an interactive **Streamlit dashboard** with **anomaly detection** and **online ML predictions**. :contentReference[oaicite:1]{index=1}
 
