@@ -1,12 +1,12 @@
 # Smart-City-Environmental-IoT-Monitoring-System
 
-A real-time **IoT streaming analytics** system for smart-city environmental monitoring. The pipeline simulates multi-sensor readings (temperature, humidity, noise, air quality), streams them into a **cloud PostgreSQL** database, and serves live analytics through an interactive **Streamlit dashboard** with **anomaly detection** and **online ML predictions**. :contentReference[oaicite:1]{index=1}
+A real-time **IoT streaming analytics** system for smart-city environmental monitoring. The pipeline simulates multi-sensor readings (temperature, humidity, noise, air quality), streams them into a **cloud PostgreSQL** database, and serves live analytics through an interactive **Streamlit dashboard** with **anomaly detection** and **online ML predictions**.
 
 ## Live Demo
 - **Streamlit Dashboard:** https://iot-app-dashboard-tto8klgngmarkpunrkrb6e.streamlit.app/
 
 ## Key Features
-- **Real-time ingestion** of simulated sensor readings at ~1-second intervals (≈ **60 records/min**). :contentReference[oaicite:2]{index=2}  
+- **Real-time ingestion** of simulated sensor readings at ~1-second intervals (≈ **60 records/min**). 
 - **Cloud storage** in Azure Database for PostgreSQL with a normalized relational schema linking locations → sensors → readings. :contentReference[oaicite:3]{index=3}  
 - **Online anomaly detection** using **River HalfSpaceTrees**, logging outliers to an `anomalies` table (threshold used: **4.0**). :contentReference[oaicite:4]{index=4}  
 - **Online machine learning** with River (StandardScaler + LinearRegression) for continuous learning and real-time predictions, tracked via **MAE**. :contentReference[oaicite:5]{index=5}  
