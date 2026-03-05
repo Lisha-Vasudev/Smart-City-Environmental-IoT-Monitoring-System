@@ -2,8 +2,6 @@
 
 A real-time **IoT streaming analytics** system for smart-city environmental monitoring. The pipeline simulates multi-sensor readings (temperature, humidity, noise, air quality), streams them into a **cloud PostgreSQL** database, and serves live analytics through an interactive **Streamlit dashboard** with **anomaly detection** and **online ML predictions**.
 
-## Live Demo
-- **Streamlit Dashboard:** https://iot-app-dashboard-tto8klgngmarkpunrkrb6e.streamlit.app/
 
 ## Key Features
 - **Real-time ingestion** of simulated sensor readings at ~1-second intervals (≈ **60 records/min**). 
