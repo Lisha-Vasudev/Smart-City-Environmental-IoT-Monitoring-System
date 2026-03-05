@@ -1,0 +1,10 @@
+psycopg2-binary
+SQLAlchemy
+python-dotenv
+pandas
+numpy
+streamlit
+river
+joblib
+plotly
+streamlit-autorefresh
